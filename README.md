@@ -13,10 +13,10 @@ I document my Journey to become a full stack QA engineer, developer, etc
 ## LEARN FULL STACK PROGRAMMING:
 
         # Swagger                  Read weather API Documentation
-# API                      Weather in Budapest Data gather¸¸
-        # Postman                  Save Weather API Call Keys and Tokens
-# Newman                   scheduledaily run of Weather in Budapest Data gather
-# IntelliJ                 Organise project
+API                      Weather in Budapest Data gather¸¸
+Postman                  Save Weather API Call Keys and Tokens
+Newman                   scheduledaily run of Weather in Budapest Data gather
+IntelliJ                 Organise project
 Java                     generate or parse API Keys
 Selenium                 Login to frontend, search with keyword
 Oracle SQL               add Weather API data into database
