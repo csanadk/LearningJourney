@@ -7,16 +7,6 @@ I document my Journey to become a full stack QA engineer, developer, etc
 els, topics, and estimated study hours needed:
 
 
-API:
-
-
-        🔹 Level	  |🧠 Focus Areas	                                                                                                                                          |⏱️ Est. Hours
-🟢 Newbie	  |- What is an API? <br> - HTTP methods (GET, POST, PUT, DELETE) <br> - JSON structure <br> - Intro to Postman UI	                                        | 5–8 hrs
-🔵 Beginner	| - Sending requests in Postman <br> - Status codes & headers <br> - Basic assertions <br> - Environments & variables <br> - Manual test case writing	    | 10–15 hrs
-🟠 Junior	  | - Writing test scripts (JavaScript) <br> - Chaining requests <br> - Data-driven testing (CSV/JSON) <br> - Collection Runner <br> - Swagger/OpenAPI	    |15–20 hrs
-🟣 Medior	  | - Authentication (Bearer, OAuth) <br> - Mock servers & stubs <br> - Schema validation <br> - Error handling <br> - CI/CD integration (GitLab, Jenkins)	| 20–30 hrs
-🔴 Expert	  | - Performance testing <br> - Security testing <br> - Newman CLI scripting <br> - Frameworks (RestAssured, Karate, Pytest) <br> - Reporting & analytics	| 30–50 hrs
-
 SQL:
 
         🔹 Level   |  Focus Areas	                                                                                                | Est. Hours
