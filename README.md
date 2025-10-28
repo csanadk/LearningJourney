@@ -4,7 +4,7 @@ I document my Journey to become a full stack QA engineer, developer, etc
 ////////////////////////////////////////////
 # NOTES:
 
-els, topics, and estimated study hours needed:
+
 
 
 
