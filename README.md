@@ -12,61 +12,61 @@
 
 ##LEARN FULL STACK PROGRAMMING:
 
-|Swagger                  Read weather API Documentation
+|Swagger                  |Read weather API Documentation
 ---
-|API                      Weather in Budapest Data gather¸¸
+|API                      |Weather in Budapest Data gather¸¸
 ---
-|Postman                  Save Weather API Call Keys and Tokens
+|Postman                  |Save Weather API Call Keys and Tokens
 ---
-|Newman                   scheduledaily run of Weather in Budapest Data gather
+|Newman                   |scheduledaily run of Weather in Budapest Data gather
 ---
-|IntelliJ                 Organise project
+|IntelliJ                 |Organise project
 ---
-|Java                     generate or parse API Keys
+|Java                     |Generate or parse API Keys
 ---
-|Selenium                 Login to frontend, search with keyword
+|Selenium                 |Login to frontend, search with keyword
 ---
-|Oracle SQL               add Weather API data into database
+|Oracle SQL               |Add Weather API data into database
 ---
-|Oracle SQL Developer     Connect to Database
+|Oracle SQL Developer     |Connect to Database
 ---
-|HTML,CSS, Javascript     Create frontend that displays the data from the database
+|HTML,CSS, Javascript     |Create frontend that displays the data from the database
 ---
-|Microservices            Java and frontend code split into separate classes
+|Microservices            |Java and frontend code split into separate classes
 ---
-|JUnit                    test Java JDBC code
+|JUnit                    |Test Java JDBC code
 ---
-|JMeter                   Performance Test of simultenous frontend displays
+|JMeter                   |Performance Test of simultenous frontend displays
 ---
-|Pentest                  Security of backend, frontend
+|Pentest                  |Security of backend, frontend
 ---
-|GitLab                   Git Versioning, build of java and frontend
+|GitLab                   |Git Versioning, build of java and frontend
 ---
-|Docker                   Create images toPackage Code to be portable
+|Docker                   |Create images toPackage Code to be portable
 ---
-|Kubernetes               Manage and configure images
+|Kubernetes               |Manage and configure images
 ---
-|Ansible                  Configure server where java nd frontend is hosted
+|Ansible                  |Configure server where java nd frontend is hosted
 ---
-|SSH                      login to server where docker is hosted
+|SSH                      |Login to server where docker is hosted
 ---
-|RedHat/Fedora Linux      use bash to launch frontend
+|RedHat/Fedora Linux      |Use bash to launch frontend
 ---
-|ELK Stash                see logs and outages of server
+|ELK Stash                |See logs and outages of server
 ---
-|Testlab                  networking and servers for hosting
+|Testlab                  |Networking and servers for hosting
 ---
-|AWS S3|                   Backup server to cloud
+|AWS S3|                   |Backup server to cloud
 ---
-|UML|                      Diagram architecture
+|UML|                      |Diagram architecture
 ---
-|Jira|                     (JQL) For UI test cases, kanban for new functionalities, bugs
+|Jira|                     |(JQL) For UI test cases, kanban for new functionalities, bugs
 ---
-|Confluence|               (CQL) Document code, architecture,db, etc
+|Confluence|               |(CQL) Document code, architecture,db, etc
 ---
 ||
 ---
-|Jenkins|                  Schedule deployment of java and frontend
+|Jenkins|                  |Schedule deployment of java and frontend
 ---
 |Machine Learning|
 ---
