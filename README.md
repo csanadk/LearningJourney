@@ -7,14 +7,7 @@ I document my Journey to become a full stack QA engineer, developer, etc
 els, topics, and estimated study hours needed:
 
 
-SQL:
 
-        🔹 Level   |  Focus Areas	                                                                                                | Est. Hours
-🟢 Newbie  |	- What is a database? <br> - Tables, rows, columns <br> - SELECT statements <br> - Basic filtering	        | 5–8 hrs
-🔵 Beginner|	- WHERE, ORDER BY, LIMIT <br> - Basic functions (COUNT, SUM, AVG) <br> - GROUP BY, HAVING	                  | 10–15 hrs
-🟠 Junior  |	- INNER JOIN, LEFT JOIN <br> - Subqueries <br> - Aliases <br> - Data validation queries	                    | 15–20 hrs
-🟣 Medior  |	- Window functions (ROW_NUMBER, RANK) <br> - CTEs (WITH clauses) <br> - CASE statements <br> - Index basics	| 20–30 hrs
-🔴 Expert  |	- Query optimization <br> - Stored procedures <br> - Triggers <br> - Data warehousing concepts	            | 30–50 hrs
 
 /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ## LEARN FULL STACK PROGRAMMING:
