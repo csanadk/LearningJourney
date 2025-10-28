@@ -12,6 +12,7 @@
 
 ##LEARN FULL STACK PROGRAMMING:
 |                        |                                                                    |
+|------------------------|--------------------------------------------------------------------|
 Swagger                  Read weather API Documentation
 
 API                      Weather in Budapest Data gather
