@@ -9,3 +9,9 @@ SQL:
 🟠 Junior  |	- INNER JOIN, LEFT JOIN <br> - Subqueries <br> - Aliases <br> - Data validation queries	                    | 15–20 hrs
 🟣 Medior  |	- Window functions (ROW_NUMBER, RANK) <br> - CTEs (WITH clauses) <br> - CASE statements <br> - Index basics	| 20–30 hrs
 🔴 Expert  |	- Query optimization <br> - Stored procedures <br> - Triggers <br> - Data warehousing concepts	            | 30–50 hrs
+
+
+
+
+
+
