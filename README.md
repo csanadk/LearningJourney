@@ -12,9 +12,9 @@
 
 ##LEARN FULL STACK PROGRAMMING:
 
-|Column 1| Column 2|
-|Swagger |Read weather API Documentation |
+|TECHNOLOGY| TASK|
 |---|---|
+|Swagger |Read weather API Documentation |
 |API |Weather in Budapest Data gather |
 |Postman |Save Weather API Call Keys and Tokens |
 |Newman |Schedule daily run of Weather in Budapest Data gather |
