@@ -13,7 +13,6 @@
 ##LEARN FULL STACK PROGRAMMING
 
 |**TECHNOLOGY**|**TASK**|
->>>
 |---|---|
 |Swagger |Read weather API Documentation |
 |API |Weather in Budapest Data gather |
