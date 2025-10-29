@@ -12,7 +12,7 @@
 
 ##LEARN FULL STACK PROGRAMMING:
 
-| | |
+|-|-|
 |Swagger |Read weather API Documentation |
 | | |
 |API |Weather in Budapest Data gather |
@@ -68,4 +68,4 @@
 |Jenkins |Schedule deployment of java and frontend |
 | | |
 |Machine Learning | |
-| | |
+|-|-|
