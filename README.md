@@ -2,7 +2,7 @@
 ## I document my Journey to become a full stack QA engineer, developer, etc
 
 
-##NOTES
+## NOTES
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-##LEARN FULL STACK PROGRAMMING
+## LEARN FULL STACK PROGRAMMING
 
 |**TECHNOLOGY**|**TASK**|
 |---|---|
