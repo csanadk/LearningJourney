@@ -1,0 +1,394 @@
+{
+  "info": {
+    "_postman_id": "9990b3e0-b1ca-46a4-bbb3-08ec8e0341d3",
+    "name": "0_WORKING_API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47483912",
+    "_collection_link": "https://go.postman.co/collection/47483912-9990b3e0-b1ca-46a4-bbb3-08ec8e0341d3?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "01_OK_Weather3",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "\r",
+              "const response = pm.response.json();\r",
+              "const maxtemp_c = response.forecast.forecastday[0].day.maxtemp_c;\r",
+              "console.log(`Max Temp: ${maxtemp_c}`);\r",
+              "\r",
+              "const will_it_rain = response.forecast.forecastday[0].day.will_it_rain;\r",
+              "console.log(`will_it_rain: ${will_it_rain}`);\r",
+              "\r",
+              "\r",
+              "\r",
+              "\r",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://api.weatherapi.com/v1/forecast.json?key=a1190861a6734a8cb2740708251808&q=Budapest&days=2&aqi=no&alerts=no",
+          "protocol": "http",
+          "host": [
+            "api",
+            "weatherapi",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "forecast.json"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "a1190861a6734a8cb2740708251808"
+            },
+            {
+              "key": "q",
+              "value": "Budapest"
+            },
+            {
+              "key": "days",
+              "value": "2"
+            },
+            {
+              "key": "aqi",
+              "value": "no"
+            },
+            {
+              "key": "alerts",
+              "value": "no"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "02_OK_SunsetSunrise",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const response = pm.response.json();\r",
+              "const sunset = response.results.sunset;\r",
+              "console.log(`Sunset Time: ${sunset}`);"
+            ],
+            "type": "text/javascript",
+            "packages": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.sunrisesunset.io/json?lat=47.497913&lng=19.040236",
+          "protocol": "https",
+          "host": [
+            "api",
+            "sunrisesunset",
+            "io"
+          ],
+          "path": [
+            "json"
+          ],
+          "query": [
+            {
+              "key": "lat",
+              "value": "47.497913"
+            },
+            {
+              "key": "lng",
+              "value": "19.040236"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "03OK_ListPublicAPIs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.apis.guru/v2/list.json",
+          "protocol": "https",
+          "host": [
+            "api",
+            "apis",
+            "guru"
+          ],
+          "path": [
+            "v2",
+            "list.json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "04_OK_FakeData",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});\r",
+              "pm.test(\"Response time is less than 200ms\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+              "});\r",
+              "pm.globals.get(\"JsonplaceholderVariable\");"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{JsonplaceholderVariable}}/posts",
+          "host": [
+            "{{JsonplaceholderVariable}}"
+          ],
+          "path": [
+            "posts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "05_OK_CRUD",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/objects",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "06_OK_Employees",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://boringapi.com/api/v1/employees",
+          "protocol": "https",
+          "host": [
+            "boringapi",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "employees"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "07_OK_Photos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://boringapi.com/api/v1/photos/random",
+          "protocol": "https",
+          "host": [
+            "boringapi",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "photos",
+            "random"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "08_OK_ArtChicago",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.artic.edu/api/v1/artworks/search?q=landscape",
+          "protocol": "https",
+          "host": [
+            "api",
+            "artic",
+            "edu"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "artworks",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "landscape"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "09_OK_ArtMetropolitan",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://collectionapi.metmuseum.org/public/collection/v1/objects/100",
+          "protocol": "https",
+          "host": [
+            "collectionapi",
+            "metmuseum",
+            "org"
+          ],
+          "path": [
+            "public",
+            "collection",
+            "v1",
+            "objects",
+            "100"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "10_bkk_futar",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://bkkfutar.docs.apiary.io/, https://balassygyorgy.wordpress.com/2016/02/02/bkk-futar-microsoft-bandre-2-bkk-futar-api/",
+          "protocol": "https",
+          "host": [
+            "bkkfutar",
+            "docs",
+            "apiary",
+            "io"
+          ],
+          "path": [
+            ", https:",
+            "",
+            "balassygyorgy.wordpress.com",
+            "2016",
+            "02",
+            "02",
+            "bkk-futar-microsoft-bandre-2-bkk-futar-api",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "11_FakeData",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "books",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "RandomDataAPI",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://random-data-api.com/api/v2/beers",
+          "protocol": "https",
+          "host": [
+            "random-data-api",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "beers"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "maxtemp_c",
+      "value": "",
+      "type": "default"
+    },
+    {
+      "key": "maxTemp",
+      "value": ""
+    }
+  ]
+}
